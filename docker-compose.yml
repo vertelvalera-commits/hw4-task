@@ -1,0 +1,7 @@
+services:
+  collatz:
+    build: .
+    # Кількість потоків можна задати руками; якщо не задано — береться availableProcessors().
+    # Розкоментуйте для явного контролю:
+    # environment:
+    #   THREAD_COUNT: "8"
